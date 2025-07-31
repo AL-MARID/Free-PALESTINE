@@ -29,6 +29,27 @@ It sends random HTTP GET requests with various headers like `User-Agent` and `Re
 It also sends random data (bytes) after the requests to increase pressure.
 
 
+## Download:
+```bash
+git clone https://github.com/AL-MARID/PALESTINE-Free.git
+```
+## Enter the tool directory:
+```bash
+cd PALESTINE-Free
+```
+## Install the required Python library:
+```bash
+pip3 install -r requirements.txt
+```
+## Run the tool.
+```bash
+python3 PALESTINE-Free.py
+```
+
+
+
+
+
 <p align="center">
   <img src="PALESTINE-Free.jpg" alt="PALESTINE-Free" width="400" />
 </p>
