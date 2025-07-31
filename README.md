@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="PALESTINE-Free.jpg" alt="PALESTINE-Free" width="400" />
+</p>
+
 # PALESTINE-Free Tool
 
 **PALESTINE-Free** is a simple DoS tool using TCP Flood and HTTP requests.
@@ -23,3 +27,13 @@ Each thread opens a TCP connection to the target server.
 It sends random HTTP GET requests with various headers like `User-Agent` and `Referer` to simulate real requests.
 
 It also sends random data (bytes) after the requests to increase pressure.
+
+
+<p align="center">
+  <img src="PALESTINE-Free.jpg" alt="PALESTINE-Free" width="400" />
+</p>
+
+
+## "Palestine is the land of pride and dignity, and its people are a symbol of resilience and determination. Despite all the challenges and sacrifices, the Palestinian remains steadfast in their right and their land. It is not just a national cause, but a story of humanity and honor that lives in the hearts of millions. We stand with Palestine with love and unwavering support, believing that freedom is inevitably coming.
+
+This digital tribute represents more than just a flag – it is a symbol of resistance and hope. Your sacrifices are never forgotten, O Palestine."
