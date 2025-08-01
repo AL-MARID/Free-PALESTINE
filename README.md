@@ -31,7 +31,7 @@ It also sends random data (bytes) after the requests to increase pressure.
 
 ## Download:
 ```bash
-git clone https://github.com/AL-MARID/PALESTINE-Free.git
+git clone https://github.com/AL-MARID/Free-PALESTINE.git
 ```
 ## Enter the tool directory:
 ```bash
