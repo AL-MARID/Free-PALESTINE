@@ -58,3 +58,4 @@ python3 Free-PALESTINE.py
 ## "Palestine is the land of pride and dignity, and its people are a symbol of resilience and determination. Despite all the challenges and sacrifices, the Palestinian remains steadfast in their right and their land. It is not just a national cause, but a story of humanity and honor that lives in the hearts of millions. We stand with Palestine with love and unwavering support, believing that freedom is inevitably coming.
 
 This digital tribute represents more than just a flag – it is a symbol of resistance and hope. Your sacrifices are never forgotten, O Palestine."
+# Free-PALESTINE
