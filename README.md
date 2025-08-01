@@ -2,31 +2,84 @@
   <img src="Free-PALESTINE.jpg" alt="Free-PALESTINE" width="400" />
 </p>
 
-# Free-PALESTINE Tool
+# Detailed Explanation of the Tool (`PALESTINE-Free Tool`)
 
-**Free-PALESTINE** is a simple DoS tool using TCP Flood and HTTP requests.
+## Main Objective
 
----
+This tool is designed to perform a **Denial of Service (`DoS`)** attack against web servers using `HTTP`/`HTTPS` requests.  
+The main goals of the tool are:
 
-## Purpose of the Tool
-
-To perform a Denial of Service (DoS) attack on a server or a website running on the HTTP protocol (non-encrypted).
-
-The goal is to flood the server with a large number of connections and requests, consuming its resources (CPU, RAM, and network connections).
-
-As a result, the server becomes slow or stops responding.
+- Flood the target server with a massive number of requests.  
+- Consume server resources (`CPU`, `memory`, and `network connections`).  
+- Make the server slow or completely unresponsive.
 
 ---
 
-## How It Works
+## How Does the Tool Work?
 
-After entering the input data, the tool starts opening multiple threads as specified.
+### 1. Data Input:
 
-Each thread opens a TCP connection to the target server.
+The user is asked to enter:
 
-It sends random HTTP GET requests with various headers like `User-Agent` and `Referer` to simulate real requests.
+- The target `IP address`.  
+- The `port` (e.g., `80` for `HTTP` or `443` for `HTTPS`).  
+- The number of packets sent per second.  
+- The number of `threads`.
 
-It also sends random data (bytes) after the requests to increase pressure.
+---
+
+### 2. Starting the Attack:
+
+- The tool creates several `threads` (based on the specified number).  
+- Each thread executes the attack in parallel.
+
+---
+
+### 3. Attack Mechanism for Each Thread:
+
+**Establishing a `TCP` Connection:**
+
+- Connects to the target server via the specified `port`.  
+- If the port is `443` (`HTTPS`), it uses an encrypted connection (`SSL/TLS`).
+
+**Creating Fake `HTTP` Requests:**
+
+- The `HTTP` method is chosen randomly (`GET`, `POST`, `PUT`, `DELETE`, ...).  
+- Fake paths are generated such as `/api/user` or `/search?q=...`.  
+- Random headers are added, including:
+
+  - `User-Agent`: Pretending to be different browsers (`Chrome`, `Firefox`, `iPhone`, ...).  
+  - `Referer`: Fake search links (`Google`, `Bing`, ...).  
+  - `Cookies`: Random identification data.  
+  - `X-Forwarded-For`: Spoofed `IP` addresses.
+
+**Sending Extra Data:**
+
+- After the main request, random data (up to `8192` bytes) is sent to increase pressure.  
+- The data may be compressed using `gzip` to add more load to the server.
+
+**Retry on Failure:**
+
+- If the connection fails, the thread retries after a short wait.
+
+---
+
+## Advanced Features
+
+### Request Variety:
+
+- Weighted use of `GET` / `POST` / `PUT` / `DELETE` requests.  
+- Random `POST` data (`JSON`, `XML`, `Form Data`).  
+- `gzip`-compressed content to increase server load.
+
+### Attack Statistics:
+
+Real-time display of:
+
+- Packets sent per second (`PPS`).  
+- Bandwidth usage (`Mbps`).  
+- Number of successful/failed connections.  
+- Attack duration.
 
 
 ## Download:
