@@ -2,7 +2,7 @@
   <img src="Free-PALESTINE.jpg" alt="Free-PALESTINE" width="400" />
 </p>
 
-# Detailed Explanation of the Tool (`PALESTINE-Free Tool`)
+# Detailed Explanation of the Tool (`Free-PALESTINE Tool`)
 
 ## Main Objective
 
