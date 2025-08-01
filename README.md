@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="PALESTINE-Free.jpg" alt="PALESTINE-Free" width="400" />
+  <img src="Free-PALESTINE.jpg" alt="Free-PALESTINE" width="400" />
 </p>
 
-# PALESTINE-Free Tool
+# Free-PALESTINE Tool
 
-**PALESTINE-Free** is a simple DoS tool using TCP Flood and HTTP requests.
+**Free-PALESTINE** is a simple DoS tool using TCP Flood and HTTP requests.
 
 ---
 
@@ -35,7 +35,7 @@ git clone https://github.com/AL-MARID/PALESTINE-Free.git
 ```
 ## Enter the tool directory:
 ```bash
-cd PALESTINE-Free
+cd Free-PALESTINE
 ```
 ## Install the required Python library:
 ```bash
@@ -43,7 +43,7 @@ pip3 install -r requirements.txt
 ```
 ## Run the tool.
 ```bash
-python3 PALESTINE-Free.py
+python3 Free-PALESTINE.py
 ```
 
 
@@ -51,7 +51,7 @@ python3 PALESTINE-Free.py
 
 
 <p align="center">
-  <img src="PALESTINE-Free.jpg" alt="PALESTINE-Free" width="400" />
+  <img src="Free-PALESTINE.jpg" alt="Free-PALESTINE" width="400" />
 </p>
 
 
